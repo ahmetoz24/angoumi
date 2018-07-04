@@ -1,0 +1,68 @@
+#ana img{
+	width: 540px;
+	height: 400px;
+	display: block;
+	opacity: 1;
+	border-radius: 8px;
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7));
+	transition: border-radius .2s, width .3s;
+}
+#alt{
+	background: #5E5050;
+	width: 540px;
+	border-radius: 4px;
+}
+#alt div{
+	display: inline-block;
+	
+}
+#alt img{
+	padding: 5px 5px;
+	width: 120px;
+	height: 75px;
+	opacity: .75;
+	border-radius: 10px;
+	
+
+}
+#alt img:hover{
+	opacity: 1;
+	transition: opacity 0.1s;
+}
+
+/****************/
+/*** Galeri 2***/
+/**************/
+
+#yan{
+	background: #000;
+	width: 150px;
+	height: 350px;
+	border-radius: 4px;
+	display: inline-block;
+	float: left;
+}
+
+#yan img{
+	border:2px #fff solid;
+	display: block;
+	margin: 0 auto;
+	padding: 5px 2px;
+	width: 120px;
+	height: 75px;
+	opacity: .75;
+	border-radius: 10px;
+}
+#yan img:hover{
+	opacity: 1;
+	transition: opacity 0.1s;
+}
+#ana2{
+	padding: 0 5px;
+	float: left;
+	height: 350px;
+	width: 560px;
+} 
+#ana2 img{
+	padding: 0 5px;
+}
